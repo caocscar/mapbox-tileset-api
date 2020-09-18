@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "layers": {
+    "roads": {
+      "source": "mapbox://tileset-source/aadt-estimate/aadt_prrds_webapp",
+      "minzoom": 11,
+      "maxzoom": 16
+    }
+  }
+}
