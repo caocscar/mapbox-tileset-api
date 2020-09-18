@@ -5,8 +5,9 @@ A. Create secret token with secret scopes privileges for the following:
   - Uploads (List, Read, Write)
   - Tilesets (List, Read, Write)
   - Datasets (List, Write)
-B. Copy and save secret token into environmental variable MAPBOX_ACCESS_TOKEN
-C. `pip install mapbox-tilesets` in terminal
+  
+B. Copy and save secret token into environmental variable MAPBOX_ACCESS_TOKEN.  
+C. `pip install mapbox-tilesets`
 
 ## How to create a GeoJSON newline-delimited file
 Method|Command
