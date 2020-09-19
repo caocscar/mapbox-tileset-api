@@ -17,23 +17,14 @@ Command|Description
 `tilesets list-sources <username>` | list tileset sources
 `tilesets validate-source <filename>` | validate GeoJSON newline-delimited file
 `tilesets upload-source <username> <id> <file>` | add tileset source
-`tilesets create <username> <tilesetid> --recipe <recipe-json> --name <tileset-name>` | create tileset with recipe
+`tilesets create <username>.<tilesetid> --recipe <recipe-json> --name <tileset-name>` | create new empty tileset with recipe
 `tilesets publish <username>.<tilesetid>` | publish tileset
 `tilesets status <username>.<tilesetid>` | check status of tileset
+`tilesets validate-recipe <recipe-json>` | validate recipe
 `tilesets update-recipe <username>.<tilesetid> <recipe-json>` | update recipe
 
 For the complete list, visit their github page:
 https://github.com/mapbox/tilesets-cli/blob/master/README.md#upload-source
-
-A typical sequence would be:
-- tilesets list-sources
-- tilesets validate-source
-- tilesets upload-source
-- create recipe.json
-- tilesets create
-- tilesets publish
-- tilesets status
-- tilesets update-recipe
 
 ## Documentation
 https://github.com/mapbox/tilesets-cli/blob/master/README.md#upload-source
